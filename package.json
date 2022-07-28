@@ -1,0 +1,11 @@
+{
+  "name": "jsonresume-theme-breeze",
+  "version": "0.1.0",
+  "description": "A breezy theme for the JSON Resume standard",
+  "repository": "git@github.com:mtimoustafa/jsonresume-theme-breeze.git",
+  "author": "Mohamed Moustafa <***REMOVED***>",
+  "license": " GPL-3.0-only-or-later",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
