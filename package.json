@@ -5,7 +5,16 @@
   "repository": "git@github.com:mtimoustafa/jsonresume-theme-breeze.git",
   "author": "Mohamed Moustafa <***REMOVED***>",
   "license": " GPL-3.0-only-or-later",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "handlebars": "^4.7.7"
+    "handlebars": "^4.7.7",
+    "puppeteer": "^15.5.0",
+    "vite": "^3.0.3",
+    "vite-plugin-handlebars": "^1.6.0"
   }
 }
