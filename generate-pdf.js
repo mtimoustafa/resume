@@ -11,10 +11,13 @@ async function generatePdf() {
 
     writeFileSync(
       resolve('resume.pdf'),
-      await page.pdf({ format: 'A4' })
+      await page.pdf({
+        format: 'A4',
+        printBackground: true,
+      })
     )
   } catch (error) {
-    console.error('PDF generation failed. Please make sure a Vite preview server is running using "yarn preview".\n\n', error)
+    console.error('PDF generation failed. Please make sure a Vite preview server is running using "yarn stage".\n\n', error)
   }
 
   await browser.close()
