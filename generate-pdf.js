@@ -7,14 +7,14 @@ async function generatePdf() {
 
   try {
     const page = await browser.newPage()
-    await page.goto('http://localhost:5173', { waitUntil: 'networkidle0' })
+    await page.goto('http://localhost:4173', { waitUntil: 'networkidle0' })
 
     writeFileSync(
-      resolve('public/resume.pdf'),
+      resolve('resume.pdf'),
       await page.pdf({ format: 'A4' })
     )
   } catch (error) {
-    console.error(error)
+    console.error('PDF generation failed. Please make sure a Vite preview server is running using "yarn preview".\n\n', error)
   }
 
   await browser.close()

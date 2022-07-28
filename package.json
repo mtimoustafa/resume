@@ -8,8 +8,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "preview": "vite preview",
     "build": "vite build",
-    "preview": "vite preview"
+    "generate-pdf": "node ./generate-pdf.js"
   },
   "dependencies": {
     "handlebars": "^4.7.7",
