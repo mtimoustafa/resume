@@ -1,24 +1,38 @@
 {
   "basics": {
-    "name": "Joe Pera",
-    "label": "Software Developer",
+    "name": "Mohamed Moustafa",
+    "label": "Software Engineer",
     "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "email": "***REMOVED***",
+    "phone": "***REMOVED*** / +1 (519) 897-9137",
+    "url": "https://fairewinds.ca",
+    "summary": "I am a full-stack software engineer with 6 years of experience in SaaS-based platforms and microservice architectures. I am proficient in front-end development and champion accessibility and usability. In the future, I aspire to become a technical lead. In my free time, I love to play music, read, and work on hobby coding projects.",
+    "nationality": "Canadian",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "countryCode": "NL",
+      "region": ""
     },
-    "profiles": [{
+    "profiles": [
+      {
       "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
-    }]
+      "username": "mtimoustafa",
+      "url": "https://twitter.com/mtimoustafa"
+      },
+      {
+      "network": "GitHub",
+      "username": "mtimoustafa",
+      "url": "https://github.com/mtimoustafa"
+      },
+      {
+      "network": "LinkedIn",
+      "username": "mtimoustafa",
+      "url": "https://linkedin.com/in/mtimoustafa"
+      }
+    ]
   },
   "work": [{
     "name": "Company",
@@ -66,22 +80,22 @@
     "issuer": "Company",
     "url": "https://certificate.com"
   }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
+  "skills": [
+    { "name": "Microservice architecture" },
+    { "name": "UI frameworks" },
+    { "name": "Web acessibility" },
+    { "name": "Containerised deployment" },
+    { "name": "Design systems" },
+    { "name": "Customer-facing experience" }
+  ],
+  "techStack": [
+    { "name": "Javascript / Vue.js" },
+    { "name": "Ruby / Ruby on Rails" },
+    { "name": "Docker / Kubernetes" },
+    { "name": "HTML / CSS / SCSS" },
+    { "name": "MySQL" },
+    { "name": "AWS" }
+  ],
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
