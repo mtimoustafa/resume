@@ -34,17 +34,68 @@
       }
     ]
   },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
+  "work": [
+    {
+      "name": "Livestorm",
+      "position": "Senior Back-End Engineer",
+      "location": "Paris, France (Remote)",
+      "url": "https://livestorm.co",
+      "startDate": "March 2022",
+      "endDate": "Current",
+      "summary": "",
+      "highlights": [
+        "Coordinated with Infrastructure team to set up new \"job manager\" microservice using AWS, Kubernetes, and Terraform.",
+        "Maintained, refactored, and documented public-facing API layer in a squads team setting, using Ruby on Rails and Swagger.",
+        "Implemented new features for the application dashboard UI, using Vue.js, GraphQL and Apollo."
+      ]
+    },
+    {
+      "name": "Springest (now Studytube)",
+      "position": "Software Developer",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://studytube.nl",
+      "startDate": "August 2021",
+      "endDate": "February 2022",
+      "summary": "",
+      "highlights": [
+        "Implemented and maintained core features in a monolith architecture, with a full-stack scope, in Ruby on Rails and Vue.js.",
+        "Assisted in refactoring core \"Course Listing\" back-end model design.",
+        "Researched containerizing main monolith application into Docker to streamline its communication with other already-containerized services."
+      ]
+    },
+    {
+      "name": "Vidyard",
+      "position": "Software Developer",
+      "location": "Kitchener, Ontario, Canada",
+      "url": "https://vidyard.com",
+      "startDate": "April 2017",
+      "endDate": "July 2021",
+      "summary": "",
+      "highlights": [
+        "Maintainer of key platform microservices, written in Ruby on Rails and Vue.js. Responsible for code reviews, refactoring and bugfixing, deploys, and mentorship.",
+        "Maintainer and guild lead of front-end design system in Vue.js. The guild consisted of 6+ engineers, designers, and QAs, and governed future goals and maintainership.",
+        "Responsible for upgrading major parts of the platform to WCAG AA accessibility standards. Mentor for co-workers on how to develop for accessibility.",
+        "Led a project to create a new search feature. Refactored RESTful API endpoints and improved the existing ElasticSearch implementation.",
+        "Refactored a stand-alone microservice to use Docker, Kubernetes, Skaffold, and Vidyard OAuth gear, in order to integrate it into our development environment.",
+        "Improved Vidyard Chrome Extension features and UI, in React.js.",
+        "Interviewed 20+ developer candidates, from interns to senior developers."
+      ]
+    },
+    {
+      "name": "Vidyard",
+      "position": "Client Services Developer",
+      "location": "Kitchener, Ontario, Canada",
+      "url": "https://vidyard.com",
+      "startDate": "September 2016",
+      "endDate": "March 2017",
+      "summary": "",
+      "highlights": [
+        "Worked with high-profile clients to implement custom solutions for their use-case around Vidyard's API and services.",
+        "Designed video hosting pages in Rails, JS, HTML, and CSS.",
+        "Taught the Customer Success team how to validate SSL certificates and troubleshoot certificate chain issues."
+      ]
+    }
+  ],
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",

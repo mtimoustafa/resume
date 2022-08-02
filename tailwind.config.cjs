@@ -1,7 +1,10 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  content: ['./*.{html,js}'],
+  content: [
+    './*.{html,js}',
+    './partials/*.{html,js}',
+],
   theme: {
     extend: {
       colors: {

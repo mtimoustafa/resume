@@ -6,7 +6,10 @@ export default {
   plugins: [
     handlebars({
       context: JSON.parse(readFileSync(resolve('resume.json'), 'utf-8')),
-      partialDirectory: resolve('src/partials'),
+      helpers: {
+        slugify: value => value?.toLowerCase().replaceAll(/\s+/g, '-') || ''
+      },
+      partialDirectory: resolve(__dirname, 'partials'),
     }),
   ],
 }

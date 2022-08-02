@@ -5,58 +5,76 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="./main.css" rel="stylesheet">
 		<title>{{basics.name}} - Resume</title>
+		<script src="/fontawesome-free-6.1.2-web/js/fontawesome.min.js"></script>
+		<script src="/fontawesome-free-6.1.2-web/js/brands.min.js"></script>
+		<script src="/fontawesome-free-6.1.2-web/js/solid.min.js"></script>
 	</head>
 
-	<body class="font-text text-f-grey">
+	<body class="font-text text-f-grey text-sm">
 		<div
 			id="left-runner"
 			class="fixed -z-10 left-10 w-12 h-full bg-f-blue"
 		>
 		</div>
 
-		<main class="py-20 pl-36 pr-20 h-full space-y-8">
-			<section class="flex items-start justify-between gap-x-8">
+		<main class="py-20 pl-36 pr-20 h-full">
+			<section class="pb-8">
 				<div class="space-y-2">
 					<h1 class="text-f-blue font-title text-6xl">{{basics.name}}</h1>
 					<h2 class="text-4xl">{{basics.label}}</h2>
 				</div>
+			</section>
 
-				<div class="flex-none grid grid-flow-col gap-x-8 gap-y-4 grid-rows-3">
+			<div class="grid gap-x-8 gap-y-4 grid-cols-3 pb-16">
+				<div class="flex items-center space-x-2">
+					<i class="fa-solid fa-house text-f-blue mr-2"></i>
 					<span>{{basics.nationality}} living in {{basics.location.city}}, {{basics.location.country}}</span>
-					<span>{{basics.phone}}</span>
-					<span>{{basics.email}}</span>
+				</div>
 
-					{{#each basics.profiles}}
+				<div class="flex items-center space-x-2">
+					<i class="fa-solid fa-envelope text-f-blue mr-2"></i>
+					<span>{{basics.email}}</span>
+				</div>
+
+				<div class="flex items-center space-x-2">
+					<i class="fa-solid fa-phone text-f-blue mr-2"></i>
+					<span>{{basics.phone}}</span>
+				</div>
+
+				{{#each basics.profiles}}
+					<div class="flex items-center space-x-2">
+						<i class="fa-brands fa-{{slugify this.network}} text-f-blue mr-2"></i>
+
 						<span>
 							{{this.network}}
 							<a href="{{this.url}}" target="_blank" rel="noreferrer noopener" class="underline text-f-blue">
 								@{{this.username}}
 							</a>
 						</span>
-					{{/each}}
-				</div>
-			</section>
+					</div>
+				{{/each}}
+			</div>
 
-			<section class="space-y-4">
-				<div>
-					<span>Summary</span>
-					<p>{{basics.summary}}</p>
-				</div>
+			<section class="grid gap-8 grid-cols-[25%_minmax(0,_1fr)] pb-16">
+				<span class="text-2xl font-title">Summary</span>
+				<p>{{basics.summary}}</p>
 
-				<div>
-					<span>Skills</span>
+				<span class="text-2xl font-title">Skills</span>
+				<div class="grid gap-4 grid-cols-3">
 					{{#each skills}}
 						<p>{{this.name}}</p>
 					{{/each}}
 				</div>
 
-				<div>
-					<span>Tech Stack</span>
+				<span class="text-2xl font-title">Tech Stack</span>
+				<div class="grid gap-4 grid-cols-3">
 					{{#each techStack}}
 						<p>{{this.name}}</p>
 					{{/each}}
 				</div>
 			</section>
+
+			{{> workExperience }}
 		</main>
 	</body>
 </html>
