@@ -96,41 +96,32 @@
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
+  "volunteer": [],
   "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
+    "institution": "University of Waterloo",
+    "url": "https://uwaterloo.ca",
+    "area": "Computer Engineering, Co-operative Program",
+    "studyType": "BASc. with Honours",
+    "startDate": "2011",
+    "endDate": "2016",
+    "location": "Waterloo, Ontario, Canada",
+    "score": "",
     "courses": [
-      "DB1101 - Basic SQL"
+      "Operating Systems and Systems Programming",
+      "Cooperative and Adaptive Algorithms",
+      "Fundamentals of Computational Intelligence"
+    ],
+    "activities": [
+      "Secretary, Waterloo Arab Student Association"
     ]
   }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
+  "conferences": [
+    { "name": "VueConf Toronto", "date": "2019, 2020" },
+    { "name": "#a11yTO - Accessibility Toronto", "date": "2019" },
+    { "name": "University of Guelph Accessibility Conference", "date": "2018, 2019" }
+  ],
+  "awards": [],
+  "certificates": [],
   "skills": [
     { "name": "Microservice architecture" },
     { "name": "UI frameworks" },
@@ -147,37 +138,19 @@
     { "name": "MySQL" },
     { "name": "AWS" }
   ],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "description": "Description…",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "keywords": [
-      "HTML"
-    ],
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "url": "https://project.com/",
-    "roles": [
-      "Team Lead"
-    ],
-    "entity": "Entity",
-    "type": "application"
-  }]
+  "languages": [
+    { "language": "English", "fluency": "Native speaker" },
+    { "language": "Arabic", "fluency": "Native speaker" },
+    { "language": "Dutch", "fluency": "Basic proficiency" },
+    { "language": "German", "fluency": "Basic proficiency" }
+  ],
+  "interests": [
+    { "name": "Member of Vidyard's diversity+inclusion & wellness committees.", "keywords": [] },
+    { "name": "Volunteer at Vidyard's community initiatives.", "keywords": [] },
+    { "name": "I like to work on small coding projects, including a sync tool between financial tools, running Minecraft in Docker, and a crochet project tracker.", "keywords": [] },
+    { "name": "I play the guitar, bass and piano & experiment with music programs like Ableton and FL Studio.", "keywords": [] },
+    { "name": "I like to read sci-fi and self-improvement books.", "keywords": [] }
+  ],
+  "references": [],
+  "projects": []
 }
