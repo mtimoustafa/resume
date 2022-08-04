@@ -16,6 +16,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.2",
     "autoprefixer": "^10.4.7",
+    "express": "^4.18.1",
     "handlebars": "^4.7.7",
     "postcss": "^8.4.14",
     "puppeteer": "^15.5.0",
