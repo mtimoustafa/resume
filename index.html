@@ -26,9 +26,9 @@
 						<h2 class="text-4xl">{{basics.label}}</h2>
 
 						<span class="hidden print:block italic">
-							(updated resume at 
-							<a href="{{basics.url}}" target="_blank" rel="noreferrer noopener" class="underline text-f-blue">
-								{{basics.url}}
+							(most recent resume 
+							<a href="http://resume.fairewinds.ca" target="_blank" rel="noreferrer noopener" class="underline text-f-blue">
+								here
 							</a>
 							)
 						</span>
@@ -48,17 +48,19 @@
 				</div>
 
 				<div class="flex items-center space-x-2">
-					<i class="fa-solid fa-envelope text-f-blue mr-2"></i>
-					<span>{{basics.email}}</span>
+					<i class="fa-solid fa-earth-americas text-f-blue mr-2"></i>
+					<div>
+						<a href="{{basics.url}}" target="_blank" rel="noreferrer noopener" class="underline text-f-blue font-normal">
+							{{basics.url}}
+						</a>
+					</div>
 				</div>
 
 				<div class="flex items-center space-x-2">
-					<i class="fa-solid fa-phone text-f-blue mr-2"></i>
-					<div>
-						{{#each basics.phones}}
-							<span class="block">{{this}}</span>
-						{{/each}}
-					</div>
+					<i class="fa-solid fa-envelope text-f-blue mr-2"></i>
+					<a href="mailto:{{basics.email}}" target="_blank" rel="noreferrer noopener" class="underline text-f-blue font-normal">
+						{{basics.email}}
+					</a>
 				</div>
 
 				{{#each basics.profiles}}
