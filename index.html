@@ -19,48 +19,40 @@
 
 		<main class="py-10 print:py-0 px-10 h-full max-w-[769px] mx-auto">
 			<section class="pb-8">
-				<div class="space-y-2">
+				<div class="space-y-4">
 					<h1 class="text-f-blue font-title text-6xl">{{basics.name}}</h1>
 
 					<div class="flex items-end justify-between gap-x-4">
 						<h2 class="text-4xl">{{basics.label}}</h2>
 
-						<span class="hidden print:block italic">
-							(most recent resume 
-							<a href="http://resume.fairewinds.ca" target="_blank" rel="noreferrer noopener" class="underline text-f-blue">
-								here
-							</a>
-							)
+						<span class="hidden print:block">
+							{{> link url="http://resume.fairewinds.ca" text="(most recent resume here)" }}
 						</span>
-						<span class="print:hidden block italic">
-							(<a href="/resume.pdf" target="_blank" rel="noreferrer noopener" class="underline text-f-blue">
-								PDF here
-							</a>)
+						<span class="print:hidden block shrink-0">
+							{{> link url="/resume.pdf" text="(PDF here)"}}
 						</span>
 					</div>
 				</div>
 			</section>
 
-			<div class="grid gap-x-8 gap-y-4 grid-cols-3 pb-16">
+			<div class="grid gap-x-8 gap-y-4 grid-cols-2 md:grid-cols-3 pb-12">
 				<div class="flex items-center space-x-2">
 					<i class="fa-solid fa-house text-f-blue mr-2"></i>
-					<span>{{basics.nationality}} living in {{basics.location.city}}, {{basics.location.country}}</span>
+					<span>
+						{{basics.nationality}} living in
+						<br class="hidden sm:block" />
+						{{basics.location.city}}, {{basics.location.country}}
+					</span>
 				</div>
 
-				<div class="flex items-center space-x-2">
+				<div class="flex items-center space-x-2 break-all">
 					<i class="fa-solid fa-earth-americas text-f-blue mr-2"></i>
-					<div>
-						<a href="{{basics.url}}" target="_blank" rel="noreferrer noopener" class="underline text-f-blue font-normal">
-							{{basics.url}}
-						</a>
-					</div>
+					{{> link url=basics.url text=basics.url }}
 				</div>
 
-				<div class="flex items-center space-x-2">
+				<div class="flex items-center space-x-2 break-all">
 					<i class="fa-solid fa-envelope text-f-blue mr-2"></i>
-					<a href="mailto:{{basics.email}}" target="_blank" rel="noreferrer noopener" class="underline text-f-blue font-normal">
-						{{basics.email}}
-					</a>
+					{{> link url=(emailLink basics.email) text=basics.email }}
 				</div>
 
 				{{#each basics.profiles}}
@@ -69,20 +61,18 @@
 
 						<span>
 							{{this.network}}:
-							<a href="{{this.url}}" target="_blank" rel="noreferrer noopener" class="underline text-f-blue font-normal">
-								@{{this.username}}
-							</a>
+							{{> link url=this.url text=(socialHandle this.username) }}
 						</span>
 					</div>
 				{{/each}}
 			</div>
 
-			<section class="grid gap-8 grid-cols-section-item pb-16">
+			<section class="grid grid-cols-1 sm:grid-cols-section-item gap-4 sm:gap-8 pb-16">
 				<span class="text-xl font-normal uppercase">Summary</span>
 				<p>{{basics.summary}}</p>
 
 				<span class="text-xl font-normal uppercase">Skills</span>
-				<ul class="grid gap-4 grid-cols-3">
+				<ul class="grid grid-cols-3 gap-4">
 					{{#each skills}}
 						<li>{{this.name}}</li>
 					{{/each}}

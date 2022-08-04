@@ -6,3 +6,4 @@ A breezy theme for the JSON Resume standard 🍃
 * Actually support JSON Resume hosting API
 * Validate JSON against JSON Resume schema ([e.g.](https://github.com/jsonresume/resume-schema))
 * Cleanup FontAwesome assets to include only the icons used
+* Switch to a lightweight component library instead of jsonresume's Handlebars
