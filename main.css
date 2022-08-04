@@ -16,33 +16,9 @@
 }
 
 @font-face {
-  font-family: 'Unna';
+  font-family: 'Sansita Swashed';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300 900;
   font-display: swap;
-  src: url(/Unna-Regular.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Unna';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/Unna-Bold.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Unna';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/Unna-Italic.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Unna';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/Unna-BoldItalic.ttf) format('truetype');
+  src: url('/SansitaSwashed-VariableFont_wght.ttf') format('truetype-variations');
 }

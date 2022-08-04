@@ -12,7 +12,7 @@ module.exports = {
         'f-blue': '#159fcb',
       },
       fontFamily: {
-        title: ['"Signika Negative"', ...defaultTheme.fontFamily.sans],
+        title: ['"Sansita Swashed"', ...defaultTheme.fontFamily.sans],
         text: ['"Signika Negative"', ...defaultTheme.fontFamily.sans],
       },
       gridTemplateColumns: {
