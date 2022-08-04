@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "preview": "vite prewview",
+    "preview": "vite preview",
     "build": "vite build",
     "stage": "yarn build && yarn preview",
     "generate-pdf": "node ./generate-pdf.js"
