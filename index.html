@@ -10,14 +10,14 @@
 		<script src="/fontawesome-free-6.1.2-web/js/solid.min.js"></script>
 	</head>
 
-	<body class="font-text text-f-grey text-sm">
+	<body class="font-text font-light text-f-grey text-sm tracking-wide">
 		<div
 			id="left-runner"
-			class="fixed -z-10 left-10 w-12 h-full bg-f-blue"
+			class="fixed -z-10 w-0 h-full bg-f-blue"
 		>
 		</div>
 
-		<main class="py-20 pl-36 pr-20 h-full">
+		<main class="py-10 print:py-0 px-10 h-full">
 			<section class="pb-8">
 				<div class="space-y-2">
 					<h1 class="text-f-blue font-title text-6xl">{{basics.name}}</h1>
@@ -38,7 +38,11 @@
 
 				<div class="flex items-center space-x-2">
 					<i class="fa-solid fa-phone text-f-blue mr-2"></i>
-					<span>{{basics.phone}}</span>
+					<div>
+						{{#each basics.phones}}
+							<span class="block">{{this}}</span>
+						{{/each}}
+					</div>
 				</div>
 
 				{{#each basics.profiles}}
@@ -55,18 +59,18 @@
 				{{/each}}
 			</div>
 
-			<section class="grid gap-8 grid-cols-[25%_minmax(0,_1fr)] pb-16">
-				<span class="text-2xl font-title">Summary</span>
+			<section class="grid gap-8 grid-cols-section-item pb-16">
+				<span class="text-xl font-title font-normal uppercase">Summary</span>
 				<p>{{basics.summary}}</p>
 
-				<span class="text-2xl font-title">Skills</span>
-				<div class="grid gap-4 grid-cols-3">
+				<span class="text-xl font-title font-normal uppercase">Skills</span>
+				<ul class="grid gap-4 grid-cols-3">
 					{{#each skills}}
-						<p>{{this.name}}</p>
+						<li>{{this.name}}</li>
 					{{/each}}
-				</div>
+				</ul>
 
-				<span class="text-2xl font-title">Tech Stack</span>
+				<span class="text-xl font-title font-normal uppercase">Tech Stack</span>
 				<div class="grid gap-4 grid-cols-3">
 					{{#each techStack}}
 						<p>{{this.name}}</p>

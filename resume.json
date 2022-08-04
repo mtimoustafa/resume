@@ -4,7 +4,7 @@
     "label": "Software Engineer",
     "image": "",
     "email": "***REMOVED***",
-    "phone": "***REMOVED*** / +1 (519) 897-9137",
+    "phones": ["***REMOVED***", "***REMOVED***"],
     "url": "https://fairewinds.ca",
     "summary": "I am a full-stack software engineer with 6 years of experience in SaaS-based platforms and microservice architectures. I am proficient in front-end development and champion accessibility and usability. In the future, I aspire to become a technical lead. In my free time, I love to play music, read, and work on hobby coding projects.",
     "nationality": "Canadian",
@@ -80,20 +80,6 @@
         "Improved Vidyard Chrome Extension features and UI, in React.js.",
         "Interviewed 20+ developer candidates, from interns to senior developers."
       ]
-    },
-    {
-      "name": "Vidyard",
-      "position": "Client Services Developer",
-      "location": "Kitchener, Ontario, Canada",
-      "url": "https://vidyard.com",
-      "startDate": "September 2016",
-      "endDate": "March 2017",
-      "summary": "",
-      "highlights": [
-        "Worked with high-profile clients to implement custom solutions for their use-case around Vidyard's API and services.",
-        "Designed video hosting pages in Rails, JS, HTML, and CSS.",
-        "Taught the Customer Success team how to validate SSL certificates and troubleshoot certificate chain issues."
-      ]
     }
   ],
   "volunteer": [],
@@ -110,9 +96,6 @@
       "Operating Systems and Systems Programming",
       "Cooperative and Adaptive Algorithms",
       "Fundamentals of Computational Intelligence"
-    ],
-    "activities": [
-      "Secretary, Waterloo Arab Student Association"
     ]
   }],
   "conferences": [
@@ -123,26 +106,26 @@
   "awards": [],
   "certificates": [],
   "skills": [
-    { "name": "Microservice architecture" },
     { "name": "UI frameworks" },
-    { "name": "Web acessibility" },
-    { "name": "Containerised deployment" },
     { "name": "Design systems" },
+    { "name": "Web acessibility" },
+    { "name": "Microservice architecture" },
+    { "name": "Containerised deployment" },
     { "name": "Customer-facing experience" }
   ],
   "techStack": [
-    { "name": "Javascript / Vue.js" },
     { "name": "Ruby / Ruby on Rails" },
-    { "name": "Docker / Kubernetes" },
+    { "name": "Javascript / Vue.js" },
     { "name": "HTML / CSS / SCSS" },
-    { "name": "MySQL" },
+    { "name": "Docker / Kubernetes" },
+    { "name": "MySQL / PostgreSQL" },
     { "name": "AWS" }
   ],
   "languages": [
-    { "language": "English", "fluency": "Native speaker" },
-    { "language": "Arabic", "fluency": "Native speaker" },
-    { "language": "Dutch", "fluency": "Basic proficiency" },
-    { "language": "German", "fluency": "Basic proficiency" }
+    { "language": "English", "fluency": "native" },
+    { "language": "Arabic", "fluency": "native" },
+    { "language": "German", "fluency": "basic" },
+    { "language": "Dutch", "fluency": "basic" }
   ],
   "interests": [
     { "name": "Member of Vidyard's diversity+inclusion & wellness committees.", "keywords": [] },

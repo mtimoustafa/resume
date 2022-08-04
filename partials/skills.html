@@ -1,41 +1,19 @@
-<section class="pb-16">
-  <div
-    id="section-runner"
-    class="absolute -z-10 h-1 left-0 w-full bg-f-blue"
-    >
-  </div>
+<section>
+  {{> sectionHeading title="Interests" }}
 
-  <h2 class="
-    relative
-    -top-5
-    -left-4
-    text-white
-    bg-f-blue
-    inline-block
-    px-4
-    py-2
-    text-lg
-    w-auto
-    uppercase
-    font-bold
-    font-title
-  ">
-    Skills
-  </h2>
+  <div class="grid grid-cols-section-item gap-y-8 gap-x-8 pb-8">
+    <span class="font-normal text-xl uppercase">Languages</span>
 
-  <div class="grid grid-cols-[25%_minmax(0,_1fr)] gap-y-8 gap-x-8 pb-8">
-    <span>Languages</span>
-
-    <div class="grid grid-cols-2 gap-8">
+    <div class="flex gap-x-8 gap-y-4">
       {{#each languages}}
-        <p><span>{{this.language}}</span>: {{this.fluency}}</p>
+        <span><span class="font-normal">{{this.language}}</span> ({{this.fluency}})</span>
       {{/each}}
     </div>
   </div>
 
-  <div class="grid grid-cols-[25%_minmax(0,_1fr)] gap-y-8 gap-x-8">
-    <span>Interests</span>
-    <ul>
+  <div class="grid grid-cols-section-item gap-y-8 gap-x-8">
+    <span class="font-normal text-xl uppercase">Interests</span>
+    <ul class="list-disc">
       {{#each interests}}
         <li>{{this.name}}</li>
       {{/each}}

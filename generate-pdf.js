@@ -13,6 +13,10 @@ async function generatePdf() {
       resolve('resume.pdf'),
       await page.pdf({
         format: 'A4',
+        margin: {
+          top: 40,
+          bottom: 40,
+        },
         printBackground: true,
       })
     )

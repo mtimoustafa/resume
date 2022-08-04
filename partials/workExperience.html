@@ -1,44 +1,29 @@
 <section class="pb-16">
-  <div
-    id="section-runner"
-    class="absolute -z-10 h-1 left-0 w-full bg-f-blue"
-    >
-  </div>
+  {{> sectionHeading title="Work Experience" }}
 
-  <h2 class="
-    relative
-    -top-5
-    -left-4
-    text-white
-    bg-f-blue
-    inline-block
-    px-4
-    py-2
-    text-lg
-    w-auto
-    uppercase
-    font-bold
-    font-title
-  ">
-    Work Experience
-  </h2>
-
-  <div class="grid grid-cols-[25%_minmax(0,_1fr)] gap-y-8 gap-x-8">
+  <div class="space-y-8">
     {{#each work}}
-      <div>
-        <p>{{this.position}}</p>
-        <p>{{this.startDate}} - {{this.endDate}}</p>
-        <a href="{{this.url}}" target="_blank" rel="noreferrer noopener" class="underline text-f-blue">
-          {{this.name}}
-        </a>
-        <p>{{this.location}}</p>
-      </div>
+      <div class="grid grid-cols-section-item gap-8 break-inside-avoid">
+        <div class="space-y-2">
+          <div>
+            <span class="text-xl uppercase font-title font-normal block">{{this.position}}</span>
+            <span class="text-f-blue block uppercase">{{this.startDate}} - {{this.endDate}}</span>
+            <span class="font-medium block">{{this.name}}</span>
+            <span class="block">{{this.location}}</span>
+          </div>
 
-      <ul>
-        {{#each this.highlights}}
-          <li>{{this}}</li>
-        {{/each}}
-      </ul>
+          <div>
+          </div>
+        </div>
+
+        <ul class="list-disc">
+          {{#each this.highlights}}
+            <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
     {{/each}}
+
+    <p class="text-f-blue italic w-64 mx-auto">Full experience available on LinkedIn</p>
   </div>
 </section>

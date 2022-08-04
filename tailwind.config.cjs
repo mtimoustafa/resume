@@ -13,7 +13,10 @@ module.exports = {
       },
       fontFamily: {
         title: ['"Signika Negative"', ...defaultTheme.fontFamily.sans],
-        text: ['Unna', ...defaultTheme.fontFamily.serif],
+        text: ['"Signika Negative"', ...defaultTheme.fontFamily.sans],
+      },
+      gridTemplateColumns: {
+        'section-item': '25% minmax(0, 1fr)',
       },
     },
   },
