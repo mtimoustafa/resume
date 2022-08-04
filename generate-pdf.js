@@ -10,7 +10,7 @@ async function generatePdf() {
     await page.goto('http://localhost:4173', { waitUntil: 'networkidle0' })
 
     writeFileSync(
-      resolve('resume.pdf'),
+      resolve('public/resume.pdf'),
       await page.pdf({
         format: 'A4',
         margin: {
