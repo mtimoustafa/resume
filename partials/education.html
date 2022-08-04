@@ -1,7 +1,7 @@
 <section class="pb-16">
   {{> sectionHeading title="Education" }}
 
-  <div class="grid grid-cols-1 sm:grid-cols-section-item gap-4 sm:gap-8">
+  <div class="grid grid-cols-1 sm:grid-cols-section-item print:grid-cols-section-item  gap-4 sm:gap-8 print:gap-8">
     {{#each education}}
       <div>
         <span class="text-xl uppercase font-normal block">{{this.institution}}</span>
@@ -24,7 +24,7 @@
     {{/each}}
   </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-section-item gap-4 sm:gap-8 mt-8">
+  <div class="grid grid-cols-1 sm:grid-cols-section-item print:grid-cols-section-item gap-4 sm:gap-8 print:gap-8 mt-8">
     <span class="text-xl font-normal uppercase">Conferences</span>
     <ul class="list-disc">
       {{#each conferences}}

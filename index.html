@@ -35,12 +35,12 @@
 				</div>
 			</section>
 
-			<div class="grid gap-x-8 gap-y-4 grid-cols-2 md:grid-cols-3 pb-12">
+			<div class="grid gap-x-8 gap-y-4 grid-cols-2 sm:grid-cols-3 print:grid-cols-3 pb-12">
 				<div class="flex items-center space-x-2">
 					<i class="fa-solid fa-house text-f-blue mr-2"></i>
 					<span>
 						{{basics.nationality}} living in
-						<br class="hidden sm:block" />
+						<br class="hidden sm:block print:block" />
 						{{basics.location.city}}, {{basics.location.country}}
 					</span>
 				</div>
@@ -67,7 +67,7 @@
 				{{/each}}
 			</div>
 
-			<section class="grid grid-cols-1 sm:grid-cols-section-item gap-4 sm:gap-8 pb-16">
+			<section class="grid grid-cols-1 sm:grid-cols-section-item print:grid-cols-section-item gap-4 sm:gap-8 print:gap-8 pb-16">
 				<span class="text-xl font-normal uppercase">Summary</span>
 				<p>{{basics.summary}}</p>
 
