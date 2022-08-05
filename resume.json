@@ -6,7 +6,7 @@
     "email": "mti.moustafa@gmail.com",
     "phone": "",
     "url": "https://fairewinds.ca",
-    "summary": "I am a full-stack software engineer with 6 years of experience in SaaS-based platforms and microservice architectures. I am proficient in front-end development and champion accessibility and usability. In the future, I aspire to become a technical lead. In my free time, I love to play music, read, and work on hobby coding projects.",
+    "summary": "I'm a full-stack software engineer with 6 years of experience in SaaS-based platforms. I specialize in design systems and web accessibility. I also have experience leading projects and cross-team initiatives. In my free time I play music, read, and work on coding projects.",
     "nationality": "Canadian",
     "location": {
       "address": "",
@@ -58,9 +58,9 @@
       "endDate": "February 2022",
       "summary": "",
       "highlights": [
+        "Researched containerizing main monolith application into Docker to streamline its communication with other already-containerized services.",
         "Implemented and maintained core features in a monolith architecture, with a full-stack scope, in Ruby on Rails and Vue.js.",
-        "Assisted in refactoring core \"Course Listing\" back-end model design.",
-        "Researched containerizing main monolith application into Docker to streamline its communication with other already-containerized services."
+        "Assisted in refactoring core \"Course Listing\" back-end model design."
       ]
     },
     {
@@ -72,13 +72,13 @@
       "endDate": "July 2021",
       "summary": "",
       "highlights": [
-        "Maintainer of key platform microservices, written in Ruby on Rails and Vue.js. Responsible for code reviews, refactoring and bugfixing, deploys, and mentorship.",
         "Maintainer and guild lead of front-end design system in Vue.js. The guild consisted of 6+ engineers, designers, and QAs, and governed future goals and maintainership.",
+        "Maintainer of key platform microservices, written in Ruby on Rails and Vue.js. Responsible for code reviews, refactoring and bugfixing, deploys, and mentorship.",
         "Responsible for upgrading major parts of the platform to WCAG AA accessibility standards. Mentor for co-workers on how to develop for accessibility.",
         "Led a project to create a new search feature. Refactored RESTful API endpoints and improved the existing ElasticSearch implementation.",
         "Refactored a stand-alone microservice to use Docker, Kubernetes, Skaffold, and Vidyard OAuth gear, in order to integrate it into our development environment.",
-        "Improved Vidyard Chrome Extension features and UI, in React.js.",
-        "Interviewed 20+ developer candidates, from interns to senior developers."
+        "Interviewed 20+ developer candidates, from interns to senior developers.",
+        "Improved Vidyard Chrome Extension features and UI, in React.js."
       ]
     }
   ],
@@ -86,7 +86,7 @@
   "education": [{
     "institution": "University of Waterloo",
     "url": "https://uwaterloo.ca",
-    "area": "Computer Engineering, Co-operative Program",
+    "area": "Computer Engineering, Co-operative (Internship) Program",
     "studyType": "BASc. with Honours",
     "startDate": "2011",
     "endDate": "2016",
@@ -110,12 +110,12 @@
     { "name": "Design systems" },
     { "name": "Web acessibility" },
     { "name": "Microservice architecture" },
-    { "name": "Containerised deployment" },
-    { "name": "Customer-facing experience" }
+    { "name": "API design and development" },
+    { "name": "Containerised deployment" }
   ],
   "techStack": [
-    { "name": "Ruby / Ruby on Rails" },
     { "name": "Javascript / Vue.js" },
+    { "name": "Ruby / Ruby on Rails" },
     { "name": "HTML / CSS / SCSS" },
     { "name": "Docker / Kubernetes" },
     { "name": "MySQL / PostgreSQL" },
@@ -128,11 +128,11 @@
     { "language": "Dutch", "fluency": "basic" }
   ],
   "interests": [
-    { "name": "Member of Vidyard's diversity+inclusion & wellness committees.", "keywords": [] },
-    { "name": "Volunteer at Vidyard's community initiatives.", "keywords": [] },
+    { "name": "Former member of Vidyard's diversity+inclusion & wellness committees.", "keywords": [] },
+    { "name": "Former volunteer at Vidyard's community initiatives.", "keywords": [] },
     { "name": "I like to work on small coding projects, including a sync tool between financial tools, running Minecraft in Docker, and a crochet project tracker.", "keywords": [] },
     { "name": "I play the guitar, bass and piano & experiment with music programs like Ableton and FL Studio.", "keywords": [] },
-    { "name": "I like to read sci-fi and self-improvement books.", "keywords": [] }
+    { "name": "I like to read sci-fi and personal development books.", "keywords": [] }
   ],
   "references": [],
   "projects": []
