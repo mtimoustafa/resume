@@ -26,7 +26,7 @@
 						<h2 class="text-4xl">{{basics.label}}</h2>
 
 						<span class="hidden print:block">
-							{{> link url="http://resume.fairewinds.ca" text="(most recent resume here)" }}
+							{{> link url="http://resume.fairewinds.ca" text="(updated at resume.fairewinds.ca)" }}
 						</span>
 						<span class="print:hidden block shrink-0">
 							{{> link url="/resume.pdf" text="(PDF here)"}}
@@ -35,16 +35,7 @@
 				</div>
 			</section>
 
-			<div class="grid gap-x-8 gap-y-4 grid-cols-2 sm:grid-cols-3 print:grid-cols-3 pb-12">
-				<div class="flex items-center space-x-2">
-					<i class="fa-solid fa-house text-f-blue mr-2"></i>
-					<span>
-						{{basics.nationality}} living in
-						<br class="hidden sm:block print:block" />
-						{{basics.location.city}}, {{basics.location.country}}
-					</span>
-				</div>
-
+			<div class="grid gap-x-8 gap-y-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 print:grid-cols-3 pb-12">
 				<div class="flex items-center space-x-2 break-all">
 					<i class="fa-solid fa-earth-americas text-f-blue mr-2"></i>
 					{{> link url=basics.url text=basics.url }}

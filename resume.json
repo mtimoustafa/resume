@@ -7,13 +7,13 @@
     "phone": "",
     "url": "https://fairewinds.ca",
     "summary": "I'm a full-stack software engineer with 6 years of experience in SaaS-based platforms. I specialize in design systems and web accessibility. I also have experience leading projects and cross-team initiatives. In my free time I play music, read, and work on coding projects.",
-    "nationality": "Canadian",
+    "nationality": "",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "countryCode": "NL",
+      "city": "",
+      "country": "",
+      "countryCode": "",
       "region": ""
     },
     "profiles": [
@@ -44,8 +44,8 @@
       "endDate": "Current",
       "summary": "",
       "highlights": [
-        "Coordinated with Infrastructure team to set up new \"job manager\" microservice using AWS, Kubernetes, and Terraform.",
-        "Maintained, refactored, and documented public-facing API layer in a squads team setting, using Ruby on Rails and Swagger.",
+        "Worked with Infrastructure team to set up new \"Job Manager\" microservice using AWS, Kubernetes, and Terraform.",
+        "Maintained, refactored, and documented public-facing API layers in a cross-discipline (design, product, development) team setting, using Ruby on Rails and Swagger.",
         "Implemented new features for the application dashboard UI, using Vue.js, GraphQL and Apollo."
       ]
     },
@@ -58,9 +58,9 @@
       "endDate": "February 2022",
       "summary": "",
       "highlights": [
-        "Researched containerizing main monolith application into Docker to streamline its communication with other already-containerized services.",
-        "Implemented and maintained core features in a monolith architecture, with a full-stack scope, in Ruby on Rails and Vue.js.",
-        "Assisted in refactoring core \"Course Listing\" back-end model design."
+        "Led research and construction of a proof-of-concept for containerizing a monolithic application into Docker.",
+        "Implemented and maintained core features with a full-stack scope in Ruby on Rails and Vue.js.",
+        "Acted as a mentor for a project to refactor core \"Course Listing\" back-end model design."
       ]
     },
     {
@@ -72,13 +72,14 @@
       "endDate": "July 2021",
       "summary": "",
       "highlights": [
-        "Maintainer and guild lead of front-end design system in Vue.js. The guild consisted of 6+ engineers, designers, and QAs, and governed future goals and maintainership.",
-        "Maintainer of key platform microservices, written in Ruby on Rails and Vue.js. Responsible for code reviews, refactoring and bugfixing, deploys, and mentorship.",
-        "Responsible for upgrading major parts of the platform to WCAG AA accessibility standards. Mentor for co-workers on how to develop for accessibility.",
+        "Helped implement and maintain internal design system using Vue.js. The design system is used across all front-end services in the platform.",
+        "Guild lead of internal design system. The guild (working group) consisted of 6+ engineers, designers, and QAs, and governed future goals and maintainership.",
+        "Maintainer of key platform services, primarily using Ruby on Rails and Vue.js. Responsible for code reviews, refactoring and bugfixing, deploys, and mentorship.",
+        "Responsible for upgrading major and most-trafficked parts of the platform to WCAG AA 2.0 accessibility standards.",
+        "Mentored co-workers on how to develop for accessibility in a technical and design capacity.",
         "Led a project to create a new search feature. Refactored RESTful API endpoints and improved the existing ElasticSearch implementation.",
-        "Refactored a stand-alone microservice to use Docker, Kubernetes, Skaffold, and Vidyard OAuth gear, in order to integrate it into our development environment.",
-        "Interviewed 20+ developer candidates, from interns to senior developers.",
-        "Improved Vidyard Chrome Extension features and UI, in React.js."
+        "Refactored a stand-alone microservice to use Docker, Kubernetes, Skaffold, and OAuth, in order to integrate it into our development environment.",
+        "Improved Vidyard Chrome Extension features and UI, using React.js."
       ]
     }
   ],
@@ -108,7 +109,7 @@
   "skills": [
     { "name": "UI frameworks" },
     { "name": "Design systems" },
-    { "name": "Web acessibility" },
+    { "name": "WCAG 2.0/2.1 acessibility" },
     { "name": "Microservice architecture" },
     { "name": "API design and development" },
     { "name": "Containerised deployment" }
@@ -124,14 +125,14 @@
   "languages": [
     { "language": "English", "fluency": "native" },
     { "language": "Arabic", "fluency": "native" },
-    { "language": "German", "fluency": "basic" },
-    { "language": "Dutch", "fluency": "basic" }
+    { "language": "German", "fluency": "learning" },
+    { "language": "Dutch", "fluency": "learning" }
   ],
   "interests": [
-    { "name": "Former member of Vidyard's diversity+inclusion & wellness committees.", "keywords": [] },
-    { "name": "Former volunteer at Vidyard's community initiatives.", "keywords": [] },
-    { "name": "I like to work on small coding projects, including a sync tool between financial tools, running Minecraft in Docker, and a crochet project tracker.", "keywords": [] },
-    { "name": "I play the guitar, bass and piano & experiment with music programs like Ableton and FL Studio.", "keywords": [] },
+    { "name": "Former member of diversity+inclusion & wellness committees.", "keywords": [] },
+    { "name": "Former volunteer at community initiatives in Ontario, Canada.", "keywords": [] },
+    { "name": "I build and maintain small coding projects, including a sync tool between financial tools, running Minecraft in Docker, and a crochet project tracker.", "keywords": [] },
+    { "name": "I play the guitar, bass and piano & experiment with music production.", "keywords": [] },
     { "name": "I like to read sci-fi and personal development books.", "keywords": [] }
   ],
   "references": [],
