@@ -3,10 +3,10 @@
     "name": "Mohamed Moustafa",
     "label": "Software Engineer",
     "image": "",
-    "email": "mti.moustafa@gmail.com",
+    "email": "hi@fairewinds.ca",
     "phone": "",
     "url": "https://fairewinds.ca",
-    "summary": "I'm a full-stack software engineer with 7 years of experience in SaaS-based platforms. I specialize in design systems and web accessibility. I also have experience leading projects and cross-team initiatives. In my free time I play music, read, and work on coding projects.",
+    "summary": "I'm a full-stack software engineer with 8 years of experience in SaaS-based platforms. I specialize in design systems and web accessibility. I also have experience leading projects and cross-team initiatives. In my free time I play music, read, and work on coding projects.",
     "nationality": "",
     "location": {
       "address": "",
@@ -18,49 +18,36 @@
     },
     "profiles": [
       {
-      "network": "GitHub",
-      "username": "mtimoustafa",
-      "url": "https://github.com/mtimoustafa"
-      },
-      {
       "network": "LinkedIn",
       "username": "mtimoustafa",
       "url": "https://linkedin.com/in/mtimoustafa"
       },
       {
-      "network": "Twitter",
+      "network": "GitHub",
       "username": "mtimoustafa",
-      "url": "https://twitter.com/mtimoustafa"
+      "url": "https://github.com/mtimoustafa"
+      },
+      {
+      "network": "GitLab",
+      "username": "mtimoustafa",
+      "url": "https://gitlab.com/mtimoustafa"
       }
     ]
   },
   "work": [
     {
-      "name": "Livestorm",
-      "position": "Senior Software Engineer",
-      "location": "Paris, France (Remote)",
-      "url": "https://livestorm.co",
-      "startDate": "March 2022",
+      "name": "GitLab",
+      "position": "Fullstack Engineer",
+      "location": "Remote",
+      "url": "https://gitlab.com",
+      "startDate": "December 2022",
       "endDate": "Current",
       "summary": "",
       "highlights": [
-        "Worked with Infrastructure team to set up new \"Job Manager\" microservice using AWS, Kubernetes, and Terraform.",
-        "Maintained, refactored, and documented public-facing API layers in a cross-discipline (design, product, development) team setting, using Ruby on Rails and Swagger.",
-        "Implemented new features for the application dashboard UI, using Vue.js, GraphQL and Apollo."
-      ]
-    },
-    {
-      "name": "Springest (now Studytube)",
-      "position": "Software Developer",
-      "location": "Amsterdam, Netherlands",
-      "url": "https://studytube.nl",
-      "startDate": "August 2021",
-      "endDate": "February 2022",
-      "summary": "",
-      "highlights": [
-        "Led research and construction of a proof-of-concept for containerizing a monolithic application into Docker.",
-        "Implemented and maintained core features with a full-stack scope in Ruby on Rails and Vue.js.",
-        "Acted as a mentor for a project to refactor core \"Course Listing\" back-end model design."
+        "Built new features for GitLab's Customers Portal using Vue.js, Rails, and GraphQL, in a team of 5 engineers. Customers Portal allows GitLab users to purchase and manage their subscriptions and add-ons to the product.",
+        "Co-ordinated and implemented an internal SKU rename, in collaboration with the Finance department, ensuring data integrity is maintained between GitLab and a critical third-party service.",
+        "Created a universal Makefile command for running the Customers Portal locally, consolidating different ways of running various services into one simple, unified approach.",
+        "Created a Rake task to periodically populate a database table with product-critical user information. Each data cohort contained 150,000+ records."
       ]
     },
     {
@@ -93,11 +80,7 @@
     "endDate": "2016",
     "location": "Waterloo, Ontario, Canada",
     "score": "",
-    "courses": [
-      "Operating Systems and Systems Programming",
-      "Cooperative and Adaptive Algorithms",
-      "Fundamentals of Computational Intelligence"
-    ]
+    "courses": []
   }],
   "conferences": [
     { "name": "VueConf Toronto", "date": "2019, 2020" },
@@ -131,9 +114,8 @@
   "interests": [
     { "name": "Former member of diversity+inclusion & wellness committees.", "keywords": [] },
     { "name": "Former volunteer at community initiatives in Ontario, Canada.", "keywords": [] },
-    { "name": "I build and maintain small coding projects, including a sync tool between financial tools, running Minecraft in Docker, and a crochet project tracker.", "keywords": [] },
-    { "name": "I play the guitar, bass and piano & experiment with music production.", "keywords": [] },
-    { "name": "I like to read sci-fi and personal development books.", "keywords": [] }
+    { "name": "I build and maintain small coding projects, including a financial transactions sync tool, running Minecraft in Docker, and this resume's generator.", "keywords": [] },
+    { "name": "I play the guitar, bass and piano & experiment with music production.", "keywords": [] }
   ],
   "references": [],
   "projects": []
