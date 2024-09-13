@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "build": "vite build",
     "stage": "yarn build && yarn preview",
+    "start": "node main.js",
     "generate-pdf": "node ./generate-pdf.js"
   },
   "dependencies": {
