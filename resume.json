@@ -41,10 +41,12 @@
       "location": "Remote",
       "url": "https://gitlab.com",
       "startDate": "December 2022",
-      "endDate": "Current",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Built new features for GitLab's Customers Portal using Vue.js, Rails, and GraphQL, in a team of 5 engineers. Customers Portal allows GitLab users to purchase and manage their subscriptions and add-ons to the product.",
+        "Led a 7-member project to enable purchasing & provisioning of Duo Enterprise, a key AI offering, driving 5-figure user sign-ups. Tech stack: Vue, Javascript, Ruby on Rails, GraphQL, PostgreSQL.",
+        "Frontend maintainer of the GitLab Customers Portal; responsible for merging and deploying merge (pull) requests, improving local instance deployment, and updating documentation.",
+        "Member of the GitLab accessibility working group, championing Customers Portal accessibility and bringing it up to par with the core GitLab application",
         "Co-ordinated and implemented an internal SKU rename, in collaboration with the Finance department, ensuring data integrity is maintained between GitLab and a critical third-party service.",
         "Created a universal Makefile command for running the Customers Portal locally, consolidating different ways of running various services into one simple, unified approach.",
         "Created a Rake task to periodically populate a database table with product-critical user information. Each data cohort contained 150,000+ records."
