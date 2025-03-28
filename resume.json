@@ -11,8 +11,8 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
-      "country": "",
+      "city": "Utrecht",
+      "country": "Netherlands",
       "countryCode": "",
       "region": ""
     },
@@ -41,23 +41,22 @@
       "location": "Remote",
       "url": "https://gitlab.com",
       "startDate": "December 2022",
-      "endDate": "Current",
-      "summary": "",
+      "endDate": "Present",
+      "summary": "GitLab is a leading DevOps platform that provides a single application for the entire software development lifecycle.",
       "highlights": [
-        "Built new features for GitLab's Customers Portal using Vue.js, Rails, and GraphQL, in a team of 5 engineers. Customers Portal allows GitLab users to purchase and manage their subscriptions and add-ons to the product.",
-        "Co-ordinated and implemented an internal SKU rename, in collaboration with the Finance department, ensuring data integrity is maintained between GitLab and a critical third-party service.",
-        "Created a universal Makefile command for running the Customers Portal locally, consolidating different ways of running various services into one simple, unified approach.",
-        "Created a Rake task to periodically populate a database table with product-critical user information. Each data cohort contained 150,000+ records."
+        "Led a 7-member project to enable purchasing & provisioning of Duo Enterprise, a key AI offering, driving 5-figure user sign-ups. Tech stack: Vue, Javascript, Ruby on Rails, GraphQL, PostgreSQL.",
+        "Frontend maintainer of the GitLab Customers Portal; responsible for merging and deploying merge (pull) requests, improving local instance deployment, and updating documentation.",
+        "Member of the GitLab accessibility working group, championing Customers Portal accessibility and bringing it up to par with the core GitLab application"
       ]
     },
     {
       "name": "Vidyard",
       "position": "Software Developer",
-      "location": "Kitchener, Ontario, Canada",
+      "location": "Kitchener, Canada",
       "url": "https://vidyard.com",
       "startDate": "April 2017",
       "endDate": "July 2021",
-      "summary": "",
+      "summary": "Vidyard is a leading video platform used by businesses for creating, sharing, and tracking video content.",
       "highlights": [
         "Helped implement and maintain internal design system using Vue.js. The design system is used across all front-end services in the platform.",
         "Guild lead of internal design system. The guild (working group) consisted of 6+ engineers, designers, and QAs, and governed future goals and maintainership.",
@@ -65,8 +64,7 @@
         "Responsible for upgrading major and most-trafficked parts of the platform to WCAG AA 2.0 accessibility standards.",
         "Mentored co-workers on how to develop for accessibility in a technical and design capacity.",
         "Led a project to create a new search feature. Refactored RESTful API endpoints and improved the existing ElasticSearch implementation.",
-        "Refactored a stand-alone microservice to use Docker, Kubernetes, Skaffold, and OAuth, in order to integrate it into our development environment.",
-        "Improved Vidyard Chrome Extension features and UI, using React.js."
+        "Refactored a stand-alone microservice to use Docker, Kubernetes, Skaffold, and OAuth, in order to integrate it into our development environment."
       ]
     }
   ],
@@ -78,7 +76,7 @@
     "studyType": "BASc. with Honours",
     "startDate": "2011",
     "endDate": "2016",
-    "location": "Waterloo, Ontario, Canada",
+    "location": "Waterloo, Canada",
     "score": "",
     "courses": []
   }],
@@ -108,8 +106,8 @@
   "languages": [
     { "language": "English", "fluency": "native" },
     { "language": "Arabic", "fluency": "native" },
-    { "language": "German", "fluency": "learning" },
-    { "language": "Dutch", "fluency": "learning" }
+    { "language": "German", "fluency": "basic" },
+    { "language": "Dutch", "fluency": "basic" }
   ],
   "interests": [
     { "name": "Former member of diversity+inclusion & wellness committees.", "keywords": [] },
