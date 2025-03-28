@@ -1,9 +1,9 @@
-<section class="pb-16">
+<section class="pb-4">
   {{> sectionHeading title="Education" }}
 
-  <div class="space-y-8">
+  <div class="space-y-4">
     {{#each education}}
-      <div class="flex justify-between space-y-4">
+      <div class="flex justify-between">
         <div>
           <span class="text-xl uppercase font-normal block">{{this.institution}}</span>
           <p class="font-normal">{{this.studyType}}, {{this.area}}</p>
@@ -16,9 +16,9 @@
       </div>
     {{/each}}
 
-    <div class="space-y-2">
+    <div class="grid grid-cols-1 sm:grid-cols-section-item print:grid-cols-section-item gap-2 sm:gap-8 print:gap-8">
       <span class="text-xl font-normal uppercase">Conferences</span>
-      <ul class="list-disc list-inside">
+      <ul class="list-disc list-inside sm:list-outside">
         {{#each conferences}}
           <li>{{this.name}} ({{this.date}})</li>
         {{/each}}
