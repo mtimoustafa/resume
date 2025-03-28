@@ -51,31 +51,11 @@
 						<i class="fa-brands fa-{{slugify this.network}} text-f-blue mr-2"></i>
 
 						<span>
-							{{this.network}}:
-							{{> link url=this.url text=(socialHandle this.username) }}
+							{{> link url=this.url text=this.network }}
 						</span>
 					</div>
 				{{/each}}
 			</div>
-
-			<section class="grid grid-cols-1 sm:grid-cols-section-item print:grid-cols-section-item gap-4 sm:gap-8 print:gap-8 pb-16">
-				<span class="text-xl font-normal uppercase">Summary</span>
-				<p>{{basics.summary}}</p>
-
-				<span class="text-xl font-normal uppercase">Skills</span>
-				<ul class="grid grid-cols-3 gap-4">
-					{{#each skills}}
-						<li>{{this.name}}</li>
-					{{/each}}
-				</ul>
-
-				<span class="text-xl font-normal uppercase">Tech Stack</span>
-				<div class="grid gap-4 grid-cols-3">
-					{{#each techStack}}
-						<p>{{this.name}}</p>
-					{{/each}}
-				</div>
-			</section>
 
 			{{> workExperience }}
 			{{> education }}

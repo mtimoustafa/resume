@@ -9,7 +9,6 @@ export default {
     handlebars({
       context: JSON.parse(readFileSync(resolve('resume.json'), 'utf-8')),
       helpers: {
-        socialHandle: handle => `@${handle}`,
         emailLink: email => `mailto:${email}`,
         slugify: value => value?.toLowerCase().replaceAll(/\s+/g, '-') || '',
       },
