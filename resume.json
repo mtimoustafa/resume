@@ -42,11 +42,38 @@
       "url": "https://gitlab.com",
       "startDate": "December 2022",
       "endDate": "Present",
-      "summary": "GitLab is a leading DevOps platform that provides a single application for the entire software development lifecycle.",
+      "summary": "GitLab is a DevOps platform that provides a single application for the entire software development lifecycle.",
       "highlights": [
-        "Led a 7-member project to enable purchasing & provisioning of Duo Enterprise, a key AI offering, driving 5-figure user sign-ups. Tech stack: Vue, Javascript, Ruby on Rails, GraphQL, PostgreSQL.",
-        "Frontend maintainer of the GitLab Customers Portal; responsible for merging and deploying merge (pull) requests, improving local instance deployment, and updating documentation.",
-        "Member of the GitLab accessibility working group, championing Customers Portal accessibility and bringing it up to par with the core GitLab application"
+        "Leads project on team of 7 to enable purchasing & provisioning of Duo Enterprise AI offering, driving 5-figure user sign-ups, using Vue.js, Ruby on Rails, GraphQL & PostgreSQL.",
+        "Maintainer of Customers Portal, handling merge request reviews & deployments.",
+        "Member of accessibility working group, aligning Customers Portal with GitLab standards."
+      ]
+    },
+    {
+      "name": "Livestorm",
+      "position": "Senior Software Engineer",
+      "location": "Remote",
+      "url": "https://livestorm.co",
+      "startDate": "March 2022",
+      "endDate": "October 2022",
+      "summary": "Livestorm is a video platform for creating, organizing & hosting webinars & virtual meetings.",
+      "highlights": [
+        "Collaborated with Infrastructure team to set up new microservice using AWS, Kubernetes & Terraform.",
+        "Maintained, refactored & documented public-facing API layers using Ruby on Rails & Swagger.",
+        "Implemented new features for application dashboard UI using Vue.js, GraphQL & Apollo."
+      ]
+    },
+    {
+      "name": "Studytube (formerly Springest)",
+      "position": "Software Developer",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://studytube.com",
+      "startDate": "August 2021",
+      "endDate": "February 2022",
+      "summary": "Studytube is an online learning platform used by businesses for compliance and upskilling teams.",
+      "highlights": [
+        "Led research of proof-of-concept for containerizing monolithic application into Docker.",
+        "Researched refactoring of core \"Course Listing\" back-end model design."
       ]
     },
     {
@@ -56,15 +83,12 @@
       "url": "https://vidyard.com",
       "startDate": "April 2017",
       "endDate": "July 2021",
-      "summary": "Vidyard is a leading video platform used by businesses for creating, sharing, and tracking video content.",
+      "summary": "Vidyard is a video platform used by businesses for creating, sharing, & tracking video content.",
       "highlights": [
-        "Helped implement and maintain internal design system using Vue.js. The design system is used across all front-end services in the platform.",
-        "Guild lead of internal design system. The guild (working group) consisted of 6+ engineers, designers, and QAs, and governed future goals and maintainership.",
-        "Maintainer of key platform services, primarily using Ruby on Rails and Vue.js. Responsible for code reviews, refactoring and bugfixing, deploys, and mentorship.",
-        "Responsible for upgrading major and most-trafficked parts of the platform to WCAG AA 2.0 accessibility standards.",
-        "Mentored co-workers on how to develop for accessibility in a technical and design capacity.",
-        "Led a project to create a new search feature. Refactored RESTful API endpoints and improved the existing ElasticSearch implementation.",
-        "Refactored a stand-alone microservice to use Docker, Kubernetes, Skaffold, and OAuth, in order to integrate it into our development environment."
+        "Led UI design system working group, governing future goals & maintainership with 6 team members.",
+        "MaintainedUI component library using Vue.js across all frontend services.",
+        "Upgraded platform's major components to WCAG AA 2.0 accessibility standards.",
+        "Integrated stand-alone microservice into application architecture, using Docker, Kubernetes & OAuth."
       ]
     }
   ],
@@ -81,27 +105,28 @@
     "courses": []
   }],
   "conferences": [
-    { "name": "VueConf Toronto", "date": "2019, 2020" },
-    { "name": "#a11yTO - Accessibility Toronto", "date": "2019" },
-    { "name": "University of Guelph Accessibility Conference", "date": "2018, 2019" }
   ],
   "awards": [],
   "certificates": [],
   "skills": [
-    { "name": "UI frameworks" },
     { "name": "Design systems" },
     { "name": "WCAG 2.0/2.1 acessibility" },
-    { "name": "Microservice architecture" },
-    { "name": "API design and development" },
-    { "name": "Containerised deployment" }
+    { "name": "Microservices" },
+    { "name": "API development" },
+    { "name": "Mentoring" },
+    { "name": "Project leadership" }
   ],
   "techStack": [
-    { "name": "Javascript / Vue.js" },
-    { "name": "Ruby / Ruby on Rails" },
-    { "name": "HTML / CSS / SCSS" },
-    { "name": "Docker / Kubernetes" },
-    { "name": "MySQL / PostgreSQL" },
-    { "name": "AWS" }
+    { "name": "Vue.js" },
+    { "name": "Ruby on Rails" },
+    { "name": "GraphQL" },
+    { "name": "Apollo" },
+    { "name": "MySQL" },
+    { "name": "PostgreSQL" },
+    { "name": "Docker" },
+    { "name": "Kubernetes" },
+    { "name": "AWS" },
+    { "name": "Terraform" }
   ],
   "languages": [
     { "language": "English", "fluency": "native" },
@@ -110,10 +135,10 @@
     { "language": "Dutch", "fluency": "basic" }
   ],
   "interests": [
-    { "name": "Former member of diversity+inclusion & wellness committees.", "keywords": [] },
-    { "name": "Former volunteer at community initiatives in Ontario, Canada.", "keywords": [] },
-    { "name": "I build and maintain small coding projects, including a financial transactions sync tool, running Minecraft in Docker, and this resume's generator.", "keywords": [] },
-    { "name": "I play the guitar, bass and piano & experiment with music production.", "keywords": [] }
+    { "name": "Diversity & Inclusion" },
+    { "name": "Software projects (see GitHub page)" },
+    { "name": "Tabletop roleplaying games" },
+    { "name": "Playing guitar & bass" }
   ],
   "references": [],
   "projects": []
