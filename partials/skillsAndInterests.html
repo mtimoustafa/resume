@@ -16,5 +16,12 @@
         <span class="basis-64 font-normal text-xl">Interests</span>
         <p class="col-span-3 mb-2">{{listify interests}}</p>
       {{/if}}
+
+      {{#if languages}}
+        <span class="basis-64 font-normal text-xl">Languages</span>
+        <p class="col-span-3 mb-2">
+          {{listifyLanguages languages}}
+        </p>
+      {{/if}}
     </div>
 </section>

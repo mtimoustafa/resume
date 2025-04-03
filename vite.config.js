@@ -12,6 +12,7 @@ export default {
         emailLink: email => `mailto:${email}`,
         slugify: value => value?.toLowerCase().replaceAll(/\s+/g, '-') || '',
         listify: list => list.map(item => item.name).reduce((acc, val) => acc + '; ' + val),
+        listifyLanguages: list => list.map(item => `${item.language} (${item.fluency})`).reduce((acc, val) => acc + '; ' + val),
       },
       partialDirectory: [
         partialsBasePath,

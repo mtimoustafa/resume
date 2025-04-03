@@ -3,16 +3,14 @@
 
   <div class="space-y-4">
     {{#each education}}
-      <div class="flex justify-between">
-        <div>
-          <span class="text-xl font-normal">{{this.institution}}</span>
-          <br/>
-          <p class="text-f-blue font-normal">{{this.studyType}}, {{this.area}}</p>
+      <div>
+        <div class="flex items-end justify-between gap-x-4">
+          <span class="text-xl font-normal leading-none">{{this.institution}}</span>
+          <span class="font-normal">{{this.startDate}} - {{this.endDate}}</span>
         </div>
 
-        <div class="text-right">
-          <span class="font-normal">{{this.startDate}} - {{this.endDate}}</span>
-          <br/>
+        <div class="flex justify-between">
+          <p class="text-f-blue font-normal">{{this.studyType}}, {{this.area}}</p>
           <span>{{this.location}}</span>
         </div>
       </div>
