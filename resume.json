@@ -44,9 +44,9 @@
       "endDate": "Present",
       "summary": "GitLab is a DevOps platform that provides a single application for the entire software development lifecycle.",
       "highlights": [
-        "Directed 7-person cross-functional project to enable purchasing & provisioning of the new Duo Enterprise AI offering, driving 10k+ user sign-ups. Used Vue.js, Ruby on Rails, GraphQL & PostgreSQL.",
-        "Introduced & optimized Duo AI add-on UI workflows & API endpoints for status tracking & bulk seat management, enabling 100k+ user sign-ups for the newly launched offering. Used Vue.js, Rails & GraphQL.",
-        "Championed accessibility initatives as part of internal Accessibility Working Group, aligning Customers Portal with WCAG 2.1 AA standard."
+        "Directed 7-person cross-functional project to enable purchasing and provisioning of the new Duo Enterprise AI offering, driving 10k+ user sign-ups. Used Vue.js, Ruby on Rails, GraphQL, PostgreSQL.",
+        "Introduced and optimized Duo AI add-on UI workflows and API endpoints for status tracking and bulk seat management, enabling 100k+ user sign-ups for the newly launched offering. Used Vue.js, Rails, GraphQL.",
+        "Championing accessibility initiatives as part of internal Accessibility Working Group, aligning Customers Portal with WCAG 2.1 AA standard."
       ]
     },
     {
@@ -56,10 +56,10 @@
       "url": "https://livestorm.co",
       "startDate": "March 2022",
       "endDate": "October 2022",
-      "summary": "Livestorm is a video platform for creating, organizing & hosting webinars & virtual meetings.",
+      "summary": "Livestorm is a video platform for creating, organizing and hosting webinars and virtual meetings.",
       "highlights": [
         "Delivered key UI features for application dashboard, meeting WCAG 2.1 AA accessibility standards for EAA compliance. Used Vue.js, GraphQL, Apollo.",
-        "Designed new microservice in collaboration with Infrastructure team, for improved scalability & reliability. Used AWS, Kubernetes, Terraform."
+        "Designed new microservice in collaboration with Infrastructure team, for improved scalability and reliability. Used AWS, Kubernetes, Terraform."
       ]
     },
     {
@@ -82,12 +82,12 @@
       "url": "https://vidyard.com",
       "startDate": "April 2017",
       "endDate": "July 2021",
-      "summary": "Vidyard is a video platform used by businesses for creating, sharing, & tracking video content.",
+      "summary": "Vidyard is a video platform used by businesses for creating, sharing, and tracking video content.",
       "highlights": [
-        "Led UI design system working group, governing future goals & maintainership with 6 team members.",
-        "Maintained UI component library using Vue.js across all frontend services.",
-        "Upgraded platform's major components to WCAG AA 2.0 accessibility standards.",
-        "Integrated stand-alone microservice into application architecture, using Docker, Kubernetes & OAuth."
+        "Led UI design system working group, governing future goals and maintainership with 6 team members.",
+        "Maintained UI component library across all frontend services using Vue.js, ensuring consistent cross-platform user experience.",
+        "Adapted design system and component library to meet WCAG 2.0 AA accessibility standards, achieving AODA compliance for wider accessibility.",
+        "Integrated standalone microservice into application architecture, ensuring consistent deployment and scalability. Used Docker, Kubernetes, OAuth."
       ]
     }
   ],
@@ -134,10 +134,10 @@
     { "language": "Dutch", "fluency": "A1" }
   ],
   "interests": [
-    { "name": "Diversity & Inclusion" },
+    { "name": "Diversity and Inclusion" },
     { "name": "Software projects (see GitHub page)" },
     { "name": "Tabletop roleplaying games" },
-    { "name": "Playing guitar & bass" }
+    { "name": "Playing guitar and bass" }
   ],
   "references": [],
   "projects": []
