@@ -1,37 +1,19 @@
-<section class="pb-16">
+<section class="pb-4 break-after-page">
   {{> sectionHeading title="Education" }}
 
-  <div class="grid grid-cols-1 sm:grid-cols-section-item print:grid-cols-section-item  gap-4 sm:gap-8 print:gap-8">
+  <div class="space-y-4">
     {{#each education}}
       <div>
-        <span class="text-xl uppercase font-normal block">{{this.institution}}</span>
-        <span class="text-f-blue font-normal block uppercase">{{this.startDate}} - {{this.endDate}}</span>
-        <span class="block">{{this.location}}</span>
-      </div>
+        <div class="flex items-end justify-between gap-x-4">
+          <span class="text-xl font-normal leading-none">{{this.institution}}</span>
+          <span class="font-normal">{{this.startDate}} - {{this.endDate}}</span>
+        </div>
 
-      <div class="space-y-4">
-        <p class="font-normal">{{this.studyType}}, {{this.area}}</p>
-        
-        {{#if this.courses}}
-          <div class="grid grid-cols-section-item gap-y-4 gap-x-8">
-            <span class="font-normal">Relevant Courses</span>
-            <ul class="list-disc">
-              {{#each this.courses}}
-                <li>{{this}}</li>
-              {{/each}}
-            </ul>
-          </div>
-        {{/if}}
+        <div class="flex justify-between">
+          <p class="text-f-blue font-normal">{{this.studyType}}, {{this.area}}</p>
+          <span>{{this.location}}</span>
+        </div>
       </div>
     {{/each}}
-  </div>
-
-  <div class="grid grid-cols-1 sm:grid-cols-section-item print:grid-cols-section-item gap-4 sm:gap-8 print:gap-8 mt-8">
-    <span class="text-xl font-normal uppercase">Conferences</span>
-    <ul class="list-disc">
-      {{#each conferences}}
-        <li>{{this.name}} ({{this.date}})</li>
-      {{/each}}
-    </ul>
   </div>
 </section>

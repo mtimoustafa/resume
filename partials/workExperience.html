@@ -1,24 +1,20 @@
-<section class="pb-16">
+<section class="pb-4">
   {{> sectionHeading title="Work Experience" }}
 
-  <div class="space-y-8">
-    <p class="text-f-blue italic font-normal w-72 mx-auto">Full work experience available on LinkedIn</p>
-
+  <div class="space-y-4">
     {{#each work}}
-      <div class="grid grid-cols-1 sm:grid-cols-section-item print:grid-cols-section-item gap-4 sm:gap-8 print:gap-8 break-inside-avoid">
-        <div class="space-y-2">
-          <div>
-            <span class="text-xl uppercase font-normal block">{{this.position}}</span>
-            <span class="text-lg text-f-blue font-normal block uppercase">{{this.name}}</span>
-            <span class="font-medium block">{{this.startDate}} - {{this.endDate}}</span>
-            <span class="block">{{this.location}}</span>
-          </div>
-
-          <div>
-          </div>
+      <div>
+        <div class="flex items-end justify-between gap-x-4">
+          <span class="text-xl font-normal leading-none">{{this.name}}</span>
+          <span class="font-medium">{{this.startDate}} - {{this.endDate}}</span>
         </div>
 
-        <ul class="list-disc">
+        <div class="flex justify-between">
+          <span class="text-lg text-f-blue font-normal">{{this.position}}</span>
+          <span>{{this.location}}</span>
+        </div>
+
+        <ul class="list-disc list-inside">
           {{#each this.highlights}}
             <li>{{this}}</li>
           {{/each}}

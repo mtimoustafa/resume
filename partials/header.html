@@ -1,0 +1,35 @@
+<section class="mb-4 space-y-1">
+  <div class="space-y-2">
+    <h1 class="text-f-blue font-title text-5xl">{{basics.name}}</h1>
+
+    <div class="flex items-end justify-between gap-x-4">
+      <h2 class="text-2xl">{{basics.label}} in {{basics.location.city}}, {{basics.location.country}} (Remote)</h2>
+
+      <span class="print:hidden block shrink-0">
+        {{> link url="/resume.pdf" text="(PDF here)"}}
+      </span>
+    </div>
+  </div>
+
+  <div class="flex flex-wrap gap-x-4">
+    <div class="flex items-center space-x-2">
+      <i class="fa-solid fa-earth-americas text-f-blue"></i>
+      {{> link url=basics.url text=basics.url }}
+    </div>
+
+    <div class="flex items-center space-x-2">
+      <i class="fa-solid fa-envelope text-f-blue"></i>
+      {{> link url=(emailLink basics.email) text=basics.email }}
+    </div>
+
+    {{#each basics.profiles}}
+    <div class="flex items-center space-x-2">
+      <i class="fa-brands fa-{{slugify this.network}} text-f-blue"></i>
+
+      <span>
+        {{> link url=this.url text=this.network }}
+      </span>
+    </div>
+    {{/each}}
+  </div>
+</section>
