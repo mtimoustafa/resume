@@ -3,7 +3,13 @@
 
   <div class="space-y-4">
     {{#each work}}
-      <div>
+      <div{{#if this.pageBreakBefore}} class="break-before-page"{{/if}}>
+        {{#if this.pageBreakBefore}}
+          <div class="hidden print:block">
+            {{> sectionHeading title="Work Experience (cont'd)" }}
+          </div>
+        {{/if}}
+
         <div class="flex items-end justify-between gap-x-4">
           <span class="text-xl font-normal leading-none">{{this.name}}</span>
           <span class="font-medium">{{this.startDate}} - {{this.endDate}}</span>

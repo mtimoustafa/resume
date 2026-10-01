@@ -40,6 +40,7 @@
       "summary": "Reaktor is a digital consultancy that designs and builds strategic digital products and platforms for global clients.",
       "highlights": [
         "Led frontend development and project management for a major European airline group's new in-flight Wi-Fi portal, delivering a streamlined experience to 10+ aircraft and 3,000+ passengers. Currently leading an upcoming high-profile partner integration.",
+        "Leading company-wide \"Foundations of Accessibility\" talk series, building a people-first understanding of EAA requirements, WCAG 2.2 AA, and the W3C Accessibility Maturity Model across 5 sessions with 30+ attendees.",
         "Launched a strategic marketing campaign across 2 portal touchpoints for a major European airline group, generating new revenue while maintaining user satisfaction.",
         "Delivered a new in-flight entertainment portal version for a leading Japanese airline's domestic flights. Upgraded deployments to support different versions per aircraft.",
         "Modernized a leading Japanese airline's development infrastructure and managed Heroku PostgreSQL upgrades, improving security and reliability and reducing lead time for changes."
@@ -60,7 +61,21 @@
       ]
     },
     {
+      "name": "Livestorm",
+      "position": "Senior Software Engineer",
+      "location": "Utrecht, Netherlands (Remote)",
+      "url": "https://livestorm.co",
+      "startDate": "March 2022",
+      "endDate": "October 2022",
+      "summary": "Livestorm is a video platform for creating, organizing and hosting webinars and virtual meetings.",
+      "highlights": [
+        "Delivered key UI features for application dashboard, meeting WCAG 2.1 AA accessibility standards for EAA compliance. Used Vue.js, GraphQL, Apollo.",
+        "Designed new microservice in collaboration with Infrastructure team, for improved scalability and reliability. Used AWS, Kubernetes, Terraform."
+      ]
+    },
+    {
       "name": "Vidyard",
+      "pageBreakBefore": true,
       "position": "Software Developer",
       "location": "Kitchener, Canada (Hybrid)",
       "url": "https://vidyard.com",
@@ -71,7 +86,9 @@
         "Led UI design system working group, governing future goals and maintainership with 6 team members.",
         "Maintained UI component library across all frontend services using Vue.js, ensuring consistent cross-platform user experience.",
         "Adapted design system and component library to meet WCAG 2.0 AA accessibility standards, achieving AODA compliance for wider accessibility.",
-        "Integrated standalone microservice into application architecture, ensuring consistent deployment and scalability. Used Docker, Kubernetes, OAuth."
+        "Integrated standalone microservice into application architecture, ensuring consistent deployment and scalability. Used Docker, Kubernetes, OAuth.",
+        "Mentored co-workers on how to develop for accessibility in a technical and design capacity.",
+        "Interviewed 20+ developer candidates, from interns to senior developers."
       ]
     }
   ],
@@ -93,7 +110,7 @@
   "certificates": [],
   "skills": [
     { "name": "Design systems" },
-    { "name": "WCAG 2.0/2.1 acessibility" },
+    { "name": "WCAG 2.0/2.1 accessibility" },
     { "name": "Microservices" },
     { "name": "API development" },
     { "name": "Mentoring" },
